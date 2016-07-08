@@ -1,6 +1,8 @@
 language: python
 python:
 - '2.7'
+script:
+- echo Mock Test
 deploy:
   provider: pypi
   user: lucyking
