@@ -14,7 +14,7 @@ deploy:
       secure: otA5o78+03riSqpQjm+35UYR4Wv4GxKZ2sm73BrJDlQFGCxb7aHG0Hp4e00Akw8kx5d5bgssyAz7H8vcO1R8NlUcPw14GEC4W8Qs/MEi2ahavMr3ADUb6aJ6I/iWWskBEe3vjoHR9IdHNCeRRiz1aCImM1o//ksd1A+X1GVVg/YRsZYenraLhVVgew8pHmyGeAr7DEtiUCOqyPNlVT9eq4xWor7bfeMB0OZtw65DgBIZH0NkMW4oEfZLe1c58ZtecT+BDZwYIk1rxxeIeoMeHoIvH77jV81qYdWsCsvCCBt4Mibqb5FKxMK2PduH6kOAAwAzIhZz3ziOP5rqpPc3K/VlXK8yoa14YsQc92dFnaSBawEEZP9fR5KYrcHCU+4hnFqaMcS8I03z3fd+ySytel0yZ+BUxe5z8oZbvMvpD7FHDnYKazjM+Jj8Cg4xIxArR4b0sprMa58Mam7VvuEFdN5MsCmTdpNLWTc0vFYhmuNURc2WTKv1+jZnVQedqXkvew9gwoIc/TW5XVjtnWKLRwg1/U7UlaGgGqqh/zW4vJCwcidlJdfAUfe9R3oEb6g0E8HYRWvG98vit5zRF9ZoOthgbzplTmZGlNUMqP6C8fEaYlLFtWCwKWGMc+I9cvnTrUY1gQrDgN46o4vRvkPYxLVdsdYQ5nT98lo6i5gQt5Y=
   on:
     tags: true
-    distributions: sdist bdist_wheel
-    repo: lucyking/pypi-auto-publish
+  distributions: sdist bdist_wheel
+  repo: lucyking/pypi-auto-publish
 after_deploy:
   - "echo DONE"
